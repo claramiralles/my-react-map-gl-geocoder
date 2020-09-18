@@ -67,6 +67,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+## Packages needed to run the map
+
 ### `npm i react-map-gl-geocoder`
 
 React wrapper for mapbox-gl-geocoder for use with react-map-gl: https://www.npmjs.com/package/react-map-gl-geocoder
