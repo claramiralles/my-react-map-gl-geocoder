@@ -66,3 +66,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### `npm i react-map-gl-geocoder`
+
+React wrapper for mapbox-gl-geocoder for use with react-map-gl: https://www.npmjs.com/package/react-map-gl-geocoder
+
+### `npm i mapbox-gl`
+
+Mapbox GL JS is a JavaScript library for interactive, customizable vector maps on the web. It takes map styles that conform to the Mapbox Style Specification, applies them to vector tiles that conform to the Mapbox Vector Tile Specification, and renders them using WebGL.:https://www.npmjs.com/package/mapbox-gl
+
+### `npm i react-map-gl`
+
+react-map-gl is a suite of React components for Mapbox GL JS: https://www.npmjs.com/package/react-map-gl
+
+
