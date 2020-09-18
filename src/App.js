@@ -5,16 +5,14 @@ import { render } from 'react-dom'
 import MapGL from 'react-map-gl'
 import Geocoder from 'react-map-gl-geocoder'
 
-// Please be a decent human and don't abuse my Mapbox API token.
-// If you fork this sandbox, replace my API token with your own.
-// Ways to set Mapbox token: https://uber.github.io/react-map-gl/#/Documentation/getting-started/about-mapbox-tokens
 const MAPBOX_TOKEN = 'pk.eyJ1Ijoic21peWFrYXdhIiwiYSI6ImNqcGM0d3U4bTB6dWwzcW04ZHRsbHl0ZWoifQ.X9cvdajtPbs9JDMG-CMDsA'
-
+ 
+//Netherlands country coordinates
 const App = () => {
   const [viewport, setViewport] = useState({
-    latitude: 37.7577,
-    longitude: -122.4376,
-    zoom: 8
+    latitude: 52.2129919,
+    longitude: 5.2793703,
+    zoom: 4
   })
   const geocoderContainerRef = useRef()
   const mapRef = useRef()
@@ -34,7 +32,7 @@ const App = () => {
   )
 
   return (
-    <div style={{ height: '100vh' }}>
+    <div style={{ height: '40vh', width: '600px' }}>
       <div ref={geocoderContainerRef} style={{ position: 'absolute', top: 20, left: 20, zIndex: 1 }} />
       <MapGL
         ref={mapRef}
